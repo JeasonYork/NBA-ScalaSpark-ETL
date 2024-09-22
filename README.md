@@ -8,17 +8,27 @@ Key: f8b20969-dc81-4df5-8f66-2ca12b1ea771
 Create a build.sbt file with the following dependencies:
 
 requests: to query the API
+
 ujson: to read the content of the API response
+
 os-lib: to create your directories and write json files to them
+
 spark-sql: to instantiate a Spark session
+
 Create the following directories:
 
 src/main/scala/ which will contain your Scala programs
+
 games/ which will contain your json files about the matches
+
 stats/ which will contain your json files about the stats after the matches
+
 csv/ which will contain your final csv files
+
 Write functions!
+
 Use RELATIVE paths to manage your files!
+
 
 ## Commands to execute in the root directory:
 
