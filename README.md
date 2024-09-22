@@ -5,7 +5,7 @@ API: https://new.balldontlie.io/
 Key: f8b20969-dc81-4df5-8f66-2ca12b1ea771
 
 ## Project Architecture
-Create a build.sbt file with the following dependencies:
+### Create a build.sbt file with the following dependencies:
 
 requests: to query the API
 
@@ -15,7 +15,7 @@ os-lib: to create your directories and write json files to them
 
 spark-sql: to instantiate a Spark session
 
-Create the following directories:
+### Create the following directories:
 
 src/main/scala/ which will contain your Scala programs
 
